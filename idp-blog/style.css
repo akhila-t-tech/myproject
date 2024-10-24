@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    overflow: hidden;
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #d0d0d0; /* Dark background for contrast */
+    color: #333; /* White text color */
+    padding: 40px 80px; /* Padding around the footer */
+    text-align: left;
+    margin-top: 80px;
+}
+
+/* Reduce gap between footer columns */
+footer .row .col-sm-2 {
+    padding-right: 10px; /* Adjust this to reduce the gap */
+    padding-left: 10px;
+}
+
+
+
+footer h5 {
+    font-size: 16px;
+    margin-bottom: 20px; /* Space between the heading and the list */
+    color: #333; /* Red color for the headings to match your logo color */
+}
+
+footer ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    font-size: 14px;
+
+}
+
+footer ul li {
+    margin-bottom: 10px; /* Space between links */
+}
+
+footer ul li a {
+    color: #333; /* Light gray color for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+

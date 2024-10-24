@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+ body{
+    background-color: #FAF8F8;
+ }
+  .navbar .nav-link {
+            color: black;
+        }
+
+             .navbar .navbar-brand img {
+            margin-left: 30px;
+        }
+        .card-custom {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+            padding: 20px;
+
+        }
+
+        .contact-card {
+            background-color: #66418e;
+            color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            top: 650px;  Adjusted for better visibility 
+            transform: translateY(-50%);
+            max-width: 350px;
+        }
+
+        .contact-card input,
+        textarea {
+            margin-bottom: 1rem;
+        }
+        .card-title h2{
+            text-align: center;
+        }
+        #imageCarousel img{
+        height: 200px; /* Set your desired height */
+
+}
+
+.card-text i {
+    margin-right: 5px; /* Space between icon and text */
+    color: #6B6688;
+}
+
+
+        
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="idp logo"></a>
+
+        <!-- Mobile Navbar Toggler Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Push the navbar links to the right -->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="padding-right: 90px;">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Our Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Our Works</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Our Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                <!-- Social Media Icons -->
+                <li class="nav-item"><a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><i class="fab fa-twitter"></i></a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Carousel -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" style="margin-top: 90px;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/idpimg.jpg" class="d-block w-100" alt="First Slide" style="height: 400px;">
+            </div>
+        </div>
+    </div>
+
+    <!-- Event Info Section -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-sm-12">
+            <!-- First Card (Event Information) -->
+            <div class="card card-custom" style="position: relative; top: -40px; margin-left: 80px;">
+                <div class="row g-0">
+                    <!-- Image Column -->
+                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="images/logoo.png" class="card-img-left" alt="Event Image" style="border: 5px solid #ddd; padding: 10px; border-radius: 4px; width: 100%; max-width: 200px; height: auto; margin: 20px;">
+                    </div>
+                    <!-- Text Column -->
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h3 class="card-title">The Hub of Business Aviation</h3>
+                            <p class="card-text">
+                                <i class="fas fa-calendar-alt"></i> 10 December–12 December 2024<br>
+                                <i class="fas fa-map-marker-alt"></i> DWC, Dubai Airshow Site<br>
+                                <a href="https://www.mebaa.aero/">https://www.mebaa.aero/</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Second Card (Additional Information) -->
+            <div class="card card-custom" style="margin-top: -30px; margin-bottom: 80px; margin-left: 80px;">
+                <div class="card-body">
+                    <h3 class="card-title text-center">The Awaited MEBAA Show is Here!</h3>
+                    <p class="card-text">
+                        The MEBAA Show 2024 is returning to Dubai, showcasing the latest advancements in business aviation. As one of the most anticipated events in the nation, it brings together key players from across the global aviation industry. Attendees can expect luxury aircraft displays, cutting-edge technology, and unparalleled networking opportunities.
+                    </p><br>
+
+                    <h3 class="card-title text-center">Why You Should Exhibit at MEBAA 2024</h3>
+                    <p class="card-text">
+                        MEBAA 2024 is a premier event for the business aviation sector, offering unmatched exposure to key decision-makers and influential figures in the industry. By exhibiting here, you gain access to potential clients, partners, and new business opportunities from across the Middle East and beyond.<br>
+                        The show is an ideal platform to showcase your products, services, and innovations to a highly targeted audience, helping you grow your brand and expand your market reach in the aviation world.
+                    </p><br>
+
+                    <h3 class="card-title text-center">Exhibit at MEBAA 2024: Showcase Your Aviation Expertise!</h3>
+                    <h5 class="card-title">Choose the Best Exhibition Stand Builder in UAE!</h5><br>
+                    <p class="card-text">
+                        Make a lasting impression at MEBAA 2024 by partnering with IDP Exhibitions, the best exhibition stand builder in Dubai. With expertise in custom stand design and execution, IDP ensures your brand stands out among industry leaders. From innovative layouts to high-quality displays, we create exhibition stands that attract attention and maximize your visibility at the business aviation event of the year. Showcase your products with confidence and connect with potential clients across the aviation sector.
+                    </p><br>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Side: Contact Form Card -->
+        <div class="col-md-4 col-sm-12">
+            <div class="contact-card" style="position: relative; top: -40px;">
+                <form>
+                    <h4>Contact Us</h4>
+                    <input type="text" class="form-control mb-2" placeholder="Your Name*" required>
+                    <input type="email" class="form-control mb-2" placeholder="Email ID*" required>
+                    <input type="tel" class="form-control mb-2" placeholder="Your Phone*" required>
+                    <input type="text" class="form-control mb-2" placeholder="Your Country*" required>
+                    <textarea class="form-control mb-2" placeholder="Your Message*" rows="4" required></textarea>
+                    <button type="submit" class="btn btn-danger w-100">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container mt-5">
+    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+            <!-- First carousel item -->
+            <div class="carousel-item active">
+                <div class="row justify-content-around gx-4" style="transition: transform 0.3s;">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 100%; ">
+                            <img src="images/img1.jpg" class="card-img-top" alt="Image 1">
+                            <!-- <div class="card-body">
+                                <h5 class="card-title">Card Title 1</h5>
+                                <p class="card-text">Description for card 1.</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 100%;">
+                            <img src="images/img2.jpg" class="card-img-top" alt="Image 2">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 100%;">
+                            <img src="images/img3.jpg" class="card-img-top" alt="Image 3">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 100%;">
+                            <img src="images/img4.jpg" class="card-img-top" alt="Image 4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second carousel item -->
+            <div class="carousel-item">
+                <div class="row justify-content-around gx-4" style="transition: transform 0.3s;">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 100%;">
+                            <img src="images/img1.jpg" class="card-img-top" alt="Image 5">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 100%;">
+                            <img src="images/img2.jpg" class="card-img-top" alt="Image 6">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 100%;">
+                            <img src="images/img3.jpg" class="card-img-top" alt="Image 7">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 100%;">
+                            <img src="images/img4.jpg" class="card-img-top" alt="Image 8">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+
+
+
+<!---footer------>
+<footer>
+    <div class="container-fluid">
+        <div class="row" style="border-bottom: 1px solid grey;">
+            <!-- Quick Links Column -->
+            <div class="col-sm-2">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Our Works</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- What We Do Column -->
+            <div class="col-sm-2">
+                <h5>What We Do</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Exhibition</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Stand Build</a></li>
+                    <li><a href="#">Contracts</a></li>
+                </ul>
+            </div>
+            <!-- Our Networks Column -->
+            <div class="col-sm-2">
+                <h5>Our Networks</h5>
+                <ul class="list-unstyled">
+                    <li>Middle East</li>
+                    <li>Asia</li>
+                    <li>Europe</li>
+                </ul>
+            </div>
+
+            <!-- Our socialmedia Column -->
+            <div class="col-sm-2">
+                <h5>Our Networks</h5>
+                <h5>Follow Us On</h5>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+<div class="row" style="margin-top: 40px;">
+
+
+            <div class="col-sm-2">
+                <ul class="list-unstyled">
+                  <img src="images/idp.png" style="padding-left: 50px;">
+                </ul>
+            </div>
+
+            <!-- Quick Links Column -->
+            <div class="col-sm-2">
+                <ul class="list-unstyled">
+                    <li><a href="#">Park Palace Tower 1604</a></li>
+                    <li><a href="#">16th Floor, Opposite</a></li>
+                    <li><a href="#">Dubai World Trade Center,</a></li>
+                    <li><a href="#">Sheikh Zayed Road,</a></li>
+                    <li><a href="#">Dubai, UAE</a></li>
+                </ul>
+            </div>
+            <!-- What We Do Column -->
+            <div class="col-sm-2">
+                <ul class="list-unstyled">
+                    <li><a href="#">RLSA 2910</a></li>
+                    <li><a href="#">2910 Al Athilah,7020 ح المصانع,</a></li>
+                    <li><a href="#">Riyadh 14711,Kingdom of </a></li>
+                    <li><a href="#">Saudi Arabia</a></li>
+                </ul>
+            </div>
+            <!-- Our Networks Column -->
+            <div class="col-sm-2">
+                <ul class="list-unstyled">
+                    <li><a href="UAE:+971507379623">UAE:+971507379623</a></li>
+                    <li><a href="UAE:+971507379623">UAE:+971507379623</a></li>
+                    <li><a href="UAE:+971507379623">UAE:+971507379623</a></li>
+                </ul>
+            </div>
+
+            <!-- Our Networks Column -->
+            <div class="col-sm-2">
+                <ul class="list-unstyled">
+                    <li></li>
+                    <li><a href="info@idpexhibitions.com">info@idpexhibitions.com</a></li>
+                    <li><a href="razi@idpexhibitions.com">razi@idpexhibitions.com</a></li>
+                </ul>
+            </div>
+
+                  <div class="col-md-2 col-sm-12">
+            <div class="cta-card" style="position: relative; top: -281px; background-color: #753590; color: white; width: 300px; height: 400px;">
+                <div class="card-body" style="padding: 40px"> 
+                    <h5 class="card-title" style="font-size: 20px; padding-bottom: 20px;">We Strive to Provide the <br>Highest Quality Service</h5>
+                        <p class="card-text" style="font-size:14px">
+                            It is always important to walk the talk, especially when it comes to running an exhibition or an event with a high international standard. We do that using the power of technology.
+                            <a href="#" class="btn btn-primary" style="background-color: #5d1c78 ; border-radius: 15px; font-size: 14px; border: none; margin-top: 30px;">Download Corporate Profile</a>
+                </div>
+            </div>
+        </div>
+        <!-- Lower Footer Section -->
+        <div class="row" style="margin-top:-200px;">
+            <div class="col-md-10 text-center">
+                <p class="mb-0">2024 IDP. All rights reserved | Powered by TNM Online Solutions</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
